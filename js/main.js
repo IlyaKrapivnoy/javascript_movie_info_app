@@ -14,10 +14,11 @@ function getMovies(searchText) {
             let output = '';
             $.each(quotes, (index, quote) => {
                 output += `
-                    <div class="col-md-3>
-                        <div class="well text-center">
-                            <h5>${quote.quote}</h5>
+                    <div class="col-4 p-4">
+                        <div class="well text-left">
                             <img src=${quote.image}>
+                            <p class="resQuote pt-4">${quote.quote}</p>
+                            <cite class="text-right">${quote.character}</cite>
                         </div>
                     </div>
                 `;

@@ -1,5 +1,6 @@
 body {
     background-color: #6dbfb8;
+    color: #fff;
 }
 
 .navbar-brand img {
@@ -12,4 +13,22 @@ body {
 
 .jumbotron h4 {
     color: #294745;
+}
+
+/* cards */
+
+#quotes .col-4 .well {
+    /* height: 30px; */
+    /* border: 1px solid red; */
+}
+
+
+
+#quotes img {
+    /* max-width: 100px; */
+    height: 190px;
+}
+
+.resQuote {
+    font-size: 20px;
 }
