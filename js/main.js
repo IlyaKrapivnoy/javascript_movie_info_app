@@ -5,3 +5,16 @@ $(document).ready(() => {
         e.preventDefault()
     })
 })
+
+function getMovies(searchText) {
+    axios.get('https://thesimpsonsquoteapi.glitch.me/quotes?count='+searchText)
+        .then((response) => {
+            console.log(response)
+        })
+        .catch((err) => {
+            console.log(err)
+        })
+}
+ 
+
+ 

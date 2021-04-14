@@ -1,0 +1,15 @@
+body {
+    background-color: #6dbfb8;
+}
+
+.navbar-brand img {
+    max-width: 130px;
+}
+
+.jumbotron {
+    background-color: #f3ea5d;
+}
+
+.jumbotron h3 {
+    color: #294745;
+}
